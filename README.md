@@ -1,7 +1,7 @@
-## Simple dApp inspired from Udemy
+## Simple dApp inspired by Udemy
+![edufy](https://i.ibb.co/hXyjpJr/Screenshot-from-2023-07-29-00-57-05.png)
 
 ## Live Demo
-
 https://edufy-iota.vercel.app/
 
 ## Description
