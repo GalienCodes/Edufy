@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-https://edufy.vercel.app/
+https://edufy-iota.vercel.app/
 
 ## Description
 
