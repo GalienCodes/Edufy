@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-https://celo-edu.vercel.app/
+https://edufy.vercel.app/
 
 ## Description
 

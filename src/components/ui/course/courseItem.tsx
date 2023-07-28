@@ -1,7 +1,7 @@
 import { memo, useCallback, useEffect, useMemo, useState } from 'react';
 
 import { useContractKit } from '@celo-tools/use-contractkit';
-import { fromWei, toWei } from 'web3-utils';
+import { toWei } from 'web3-utils';
 import Stack from '@mui/material/Stack';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -10,10 +10,9 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import LoadingButton from '@mui/lab/LoadingButton';
 
-import type { CeloEduMarketplace, Erc20 } from 'abis/types';
+import type { CeloEduMarketplace } from 'abis/types';
 import { CELO_EDU_MARKETPLACE_CONTRACT_ADDRESS } from 'constants/contracts';
 import CELO_EDU_MARKETPLACE_ABI from 'abis/celo-edu-marketplace.json';
-import ERC20_ABI from 'abis/erc20.json';
 
 import { useNotify } from 'components/base/notify/hooks';
 import useContract from 'hooks/useContract';
